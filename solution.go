@@ -1,4 +1,4 @@
-package solution
+package main
 
 // + Инициализировать проект, создаёт файл go.mod: go mod init homework-01
 // + git checkout branchname
@@ -18,8 +18,8 @@ import (
 )
 
 func main() { // Имя функции с Большой буквы, чтобы была видна в других пакетах
-	fmt.Println(emoji.Sprint("Hello :world_map:!"))
+	fmt.Println(emoji.Sprint("Hello :world_map: !"))
 }
 
 // git config --list
-// Commit HW-00 Upload-02
+// Commit HW-00 Upload-03
