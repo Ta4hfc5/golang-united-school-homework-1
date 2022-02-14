@@ -1,4 +1,4 @@
-package main
+package solution
 
 // + Инициализировать проект, создаёт файл go.mod: go mod init homework-01
 // + git checkout branchname
@@ -22,4 +22,4 @@ func main() { // Имя функции с Большой буквы, чтобы 
 }
 
 // git config --list
-// Commit HW-00 Upload-01
+// Commit HW-00 Upload-02
