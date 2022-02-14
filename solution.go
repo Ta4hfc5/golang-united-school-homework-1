@@ -17,9 +17,10 @@ import (
 
 func main() { // Имя функции с Большой буквы, чтобы была видна в других пакетах
 	emoji.Sprint("Hello :world_map:!") // ответ функции
+	return
 }
 
 // fmt.Println(emoji.Sprint("Hello :world_map: !")) // Вывод в строку терминала
 
 // git config --list
-// Comment: Commit HW-00 Push-06
+// Comment: Commit HW-00 Push-07
