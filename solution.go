@@ -12,14 +12,13 @@ package main
 // git config --global user.email johndoe@example.com
 
 import (
-	"fmt"
-
 	"github.com/kyokomi/emoji"
 )
 
 func main() { // Имя функции с Большой буквы, чтобы была видна в других пакетах
-	fmt.Println(emoji.Sprint("Hello :world_map: !"))
+	return emoji.Sprint("Hello :world_map:!") // ответ функции
+	// fmt.Println(emoji.Sprint("Hello :world_map: !")) // Вывод в строку терминала
 }
 
 // git config --list
-// Commit HW-00 Upload-03
+// Commit HW-00 Push-03
