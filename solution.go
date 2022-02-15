@@ -1,4 +1,4 @@
-package main
+package solution
 
 // + Инициализировать проект, создаёт файл go.mod: go mod init homework-01
 // + git checkout branchname
@@ -23,4 +23,4 @@ func GetMessage() { // Имя функции с Большой буквы, чт�
 // fmt.Println(emoji.Sprint("Hello :world_map: !")) // Вывод в строку терминала
 
 // git config --list
-// Comment: Commit HW-00 Push-08
+// Comment: Commit HW-00 Push-09
