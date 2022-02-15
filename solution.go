@@ -22,4 +22,4 @@ func GetMessage() string { // Имя функции с Большой буквы
 // fmt.Println(emoji.Sprint("Hello :world_map: !")) // Вывод в строку терминала
 
 // git config --list
-// Comment: Commit HW-00 Push-14
+// Comment: Commit HW-00 Push-15
