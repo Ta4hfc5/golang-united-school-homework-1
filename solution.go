@@ -12,14 +12,14 @@ package solution
 // git config --global user.email johndoe@example.com
 
 import (
-	"github.com/kyokomi/emoji"
+	"github.com/kyokomi/emoji/v2"
 )
 
 func GetMessage() string { // Имя функции с Большой буквы, чтобы была видна в других пакетах
-	return emoji.Sprint("Hello :world_map: !") // ответ функции
+	return emoji.Sprint("Hello :world_map:!") // ответ функции
 }
 
 // fmt.Println(emoji.Sprint("Hello :world_map: !")) // Вывод в строку терминала
 
 // git config --list
-// Comment: Commit HW-00 Push-1
+// Comment: Commit HW-00 Push-14
