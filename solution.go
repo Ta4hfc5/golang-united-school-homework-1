@@ -15,7 +15,7 @@ import (
 	"github.com/kyokomi/emoji"
 )
 
-func main() { // Имя функции с Большой буквы, чтобы была видна в других пакетах
+func GetMessage() { // Имя функции с Большой буквы, чтобы была видна в других пакетах
 	emoji.Sprint("Hello :world_map:!") // ответ функции
 	return
 }
@@ -23,4 +23,4 @@ func main() { // Имя функции с Большой буквы, чтобы 
 // fmt.Println(emoji.Sprint("Hello :world_map: !")) // Вывод в строку терминала
 
 // git config --list
-// Comment: Commit HW-00 Push-07
+// Comment: Commit HW-00 Push-08
